@@ -18,6 +18,10 @@ angular.module('app', ['ngRoute'])
 /*  HINT: Make sure your controllers, methods, and variables 
     are named what $routeProvider and the partials are expecting  */
 
-  .factory('counter', function(){})
-  .controller('fizzbuzzCtrl', function(){})
+  .factory('counter', function($scope){
+    //her i want to giv my counter valu
+  })
+  .controller('fizzbuzzCtrl', function($scope,){
+    //her i will mack th math div on the value of my con=unter 
+  })
   .controller('fozzbazzCtrl', function(){});
