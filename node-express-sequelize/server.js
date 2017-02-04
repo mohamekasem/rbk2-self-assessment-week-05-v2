@@ -13,7 +13,10 @@ var User = sequelize.define('User', {
     a GET request with all users in the database */
 //if the Qu need to mack reuter this is
 router.get(function (req,res,next){
-	
+	//i have GET req
+	//i have event here 
+	//i swquelize db 
+	//
 	//resev the git req from 'user'
 	//.send to sequli
 	req.send(req.user)
